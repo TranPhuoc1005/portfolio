@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="format-detection" content="telephone=no" />
+        <title>Trần Hữu Phước - Frontend Developer</title>
+        <meta name="keywords" content="Frontend Developer, ReactJS, TypeScript, Web Developer" />
+        <meta name="description" content="Portfolio của Trần Hữu Phước - Frontend Developer với 4 năm kinh nghiệm" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <!-- FAVICON -->
+        <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./favicon/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./favicon/site.webmanifest" />
+        <!-- STYLESHEET -->
+        <link rel="stylesheet" media="all" href="./css/styles.css" />
+        <link rel="stylesheet" media="all" href="./css/responsive.css" />
+    </head>
+    <body>
+        <div id="particles-js"></div>
+
+        <div class="content">
+            <nav>
+                <div class="nav-container">
+                    <div class="logo">PORTFOLIO</div>
+                    <div class="hamburger" onclick="toggleMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="nav-links">
+                        <li>
+                            <a href="#home" onclick="closeMenu()">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="#about" onclick="closeMenu()">Giới thiệu</a>
+                        </li>
+                        <li>
+                            <a href="#skills" onclick="closeMenu()">Kỹ năng</a>
+                        </li>
+                        <li>
+                            <a href="#projects" onclick="closeMenu()">Dự án</a>
+                        </li>
+                        <li>
+                            <a href="#contact" onclick="closeMenu()">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <section id="home" class="hero">
+                <div class="hero-content">
+                    <h1>Xin chào, tôi là Trần Hữu Phước</h1>
+                    <p class="tagline">Frontend Developer</p>
+                    <p class="subtitle">
+                        Đam mê tạo ra trải nghiệm UI/UX chất lượng cao
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">Xem dự án</a>
+                        <a href="#contact" class="btn btn-secondary">Liên hệ ngay</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about">
+                <h2 class="section-title">Về tôi</h2>
+                <p class="section-subtitle">Passion meets expertise</p>
+                <div class="about-container">
+                    <div class="about-image center">
+                        <img src="./images/aboutme.png" width="400" alt="Trần Hữu Phước">
+                    </div>
+                    <div class="about-content">
+                        <p>
+                            Tôi là Frontend Developer với 4 năm kinh nghiệm trong việc xây dựng các ứng dụng web hiện đại và responsive. Tốt nghiệp Đại học Nguyễn Tất Thành chuyên ngành Công nghệ Thông tin, tôi đam mê tạo ra những sản phẩm không chỉ đẹp mắt mà còn mang lại trải nghiệm người dùng tuyệt vời.
+                        </p>
+                        <p>
+                            Hiện tại, tôi đang làm việc tại VIETRY CO., LTD với vai trò Frontend Developer, đồng thời làm Freelancer cho nhiều dự án khác nhau. Tôi có kinh nghiệm làm việc với ReactJS, TypeScript, Next.js và các công nghệ frontend hiện đại.
+                        </p>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <div class="stat-number">50+</div>
+                                <div class="stat-label">Dự án</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">4+</div>
+                                <div class="stat-label">Năm kinh nghiệm</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills">
+                <h2 class="section-title">Kỹ năng chuyên môn</h2>
+                <p class="section-subtitle">Công nghệ tôi sử dụng hàng ngày</p>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <span class="skill-icon">⚛️</span>
+                        <h3>Frontend Development</h3>
+                        <p>React.js, Next.js, TypeScript, Redux Toolkit, Zustand</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <span class="skill-icon">🎨</span>
+                        <h3>UI/UX & Styling</h3>
+                        <p>HTML5, CSS3, SCSS, Tailwind CSS, shadcn/ui, Responsive Design</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <span class="skill-icon">🛠️</span>
+                        <h3>State Management & APIs</h3>
+                        <p>Axios, TanStack Query, React Hook Form, REST APIs</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <span class="skill-icon">🔧</span>
+                        <h3>Backend & CMS</h3>
+                        <p>PHP, WordPress, Server Side JavaScript</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <span class="skill-icon">🎯</span>
+                        <h3>Form Validation</h3>
+                        <p>Zod, React Hook Form, Form Handling</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <span class="skill-icon">🔥</span>
+                        <h3>Real-time & Cloud</h3>
+                        <p>Firebase, Real-time Chat, Authentication</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects">
+                <h2 class="section-title">Dự án nổi bật</h2>
+                <p class="section-subtitle">Những sản phẩm tôi tự hào nhất</p>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <a href="https://lani-bnb.vercel.app/" target="_blank" class="link_full"></a>
+                        <div class="project-img"><img src="./images/lanibnb.png" width="" alt="lanibnb"></div>
+                        <div class="project-info">
+                            <h3>LaniBnb - Hotel Booking Website</h3>
+                            <p>
+                                Nền tảng đặt phòng khách sạn với UI hiện đại, responsive. Tích hợp chat realtime với Firebase, quản lý state với Zustand và TanStack Query.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">ReactJS</span>
+                                <span class="tag">TypeScript</span>
+                                <span class="tag">Tailwind CSS</span>
+                                <span class="tag">Firebase</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <a href="https://ticket-movie-ten.vercel.app/" target="_blank" class="link_full"></a>
+                        <div class="project-img"><img src="./images/ticketmovie.png" width="" alt="ticketmovie"></div>
+                        <div class="project-info">
+                            <h3>Movie Ticket Booking</h3>
+                            <p>
+                                Website đặt vé xem phim với tính năng đăng nhập, đăng ký, đặt vé. Admin Dashboard quản lý phim và người dùng.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Redux Toolkit</span>
+                                <span class="tag">TanStack Query</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <a href="https://www.lanihome.net/" target="_blank" class="link_full"></a>
+                        <div class="project-img"><img src="./images/lanihome.png" width="" alt="lanihome"></div>
+                        <div class="project-info">
+                            <h3>Lanihome</h3>
+                            <p>
+                                Website bất động sản với thiết kế hiện đại, tối ưu SEO và trải nghiệm người dùng.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <a href="https://www.shigeyamagumi.co.jp/" target="_blank" class="link_full"></a>
+                        <div class="project-img"><img src="./images/shigeyamagumi.png" width="" alt="shigeyamagumi"></div>
+                        <div class="project-info">
+                            <h3>Shigeyamagumi</h3>
+                            <p>
+                                Website doanh nghiệp Nhật Bản với thiết kế chuyên nghiệp, tối ưu hiệu suất và SEO.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS/SASS</span>
+                                <span class="tag">JQUERY/JAVASCRIPT</span>
+                                <span class="tag">PHP</span>
+                                <span class="tag">WordPress</span>
+                                <span class="tag">Custom Theme</span>
+                                <span class="tag">SEO</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <a href="https://www.sa-obi.net/" target="_blank" class="link_full"></a>
+                        <div class="project-img"><img src="./images/sa-obi.png" width="" alt="saobi"></div>
+                        <div class="project-info">
+                            <h3>Sa-obi Corporate Website</h3>
+                            <p>
+                                Website doanh nghiệp Nhật Bản với thiết kế chuyên nghiệp, tối ưu hiệu suất và SEO.
+                            </p>
+                            <div class="project-tags">
+                                 <span class="tag">HTML</span>
+                                <span class="tag">CSS/SASS</span>
+                                <span class="tag">JQUERY/JAVASCRIPT</span>
+                                <span class="tag">PHP</span>
+                                <span class="tag">WordPress</span>
+                                <span class="tag">Custom Theme</span>
+                                <span class="tag">SEO</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <a href="https://www.paintplaza.co.jp/lp02/" target="_blank" class="link_full"></a>
+                        <div class="project-img"><img src="./images/paintplaza.png" width="" alt="paintplaza"></div>
+                        <div class="project-info">
+                            <h3>Paint Plaza</h3>
+                            <p>
+                                Phát triển nhiều landing page cho khách hàng Nhật Bản: Paintplaza, Souwa Hudousan, Shigeyamagumi, Itwith.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">HTML/CSS</span>
+                                <span class="tag">WordPress</span>
+                                <span class="tag">JQUERY/JAVASCRIPT</span>
+                                <span class="tag">CMS</span>
+                                <span class="tag">Performance</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <a href="https://itwith.jp/" target="_blank" class="link_full"></a>
+                        <div class="project-img"><img src="./images/itwith.png" width="" alt="itwith"></div>
+                        <div class="project-info">
+                            <h3>Itwith</h3>
+                            <p>
+                                Website doanh nghiệp Nhật Bản với thiết kế chuyên nghiệp, tối ưu hiệu suất và SEO.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">HTML/CSS</span>
+                                <span class="tag">JQUERY/JAVASCRIPT</span>
+                                <span class="tag">WordPress</span>
+                                <span class="tag">PHP</span>
+                                <span class="tag">CMS</span>
+                                <span class="tag">Performance</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2 class="section-title">Liên hệ với tôi</h2>
+                <p class="section-subtitle">
+                    Hãy cùng nhau tạo nên điều tuyệt vời
+                </p>
+                <div class="contact-container">
+                    <form class="contact-form" onsubmit="handleSubmit(event)">
+                        <div class="form-group">
+                            <label>Tên của bạn</label>
+                            <input
+                                type="text"
+                                placeholder="Nhập tên của bạn"
+                                required
+                            />
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input
+                                type="email"
+                                placeholder="your.email@example.com"
+                                required
+                            />
+                        </div>
+                        <div class="form-group">
+                            <label>Dự án</label>
+                            <input
+                                type="text"
+                                placeholder="Bạn cần dự án gì?"
+                            />
+                        </div>
+                        <div class="form-group">
+                            <label>Tin nhắn</label>
+                            <textarea
+                                placeholder="Hãy cho tôi biết chi tiết về dự án của bạn..."
+                                required
+                            ></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            Gửi tin nhắn
+                        </button>
+                    </form>
+                    <div class="social-links">
+                        <a href="mailto:tranphuoc1005@gmail.com" class="social-link" title="Email">📧</a>
+                        <a href="https://linkedin.com/in/phước-trần-hữu-b67a19217" class="social-link" title="LinkedIn">💼</a>
+                        <a href="https://github.com/TranPhuoc1005" class="social-link" title="GitHub">🐙</a>
+                        <a href="tel:0934100597" class="social-link" title="Phone">📱</a>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <p>&copy; 2025 Trần Hữu Phước</p>
+            </footer>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+        <script src="./js/common.js"></script>
+    </body>
+</html>
