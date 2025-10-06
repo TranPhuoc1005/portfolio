@@ -171,3 +171,5 @@ setInterval(() => {
     heroContent.style.transform = `translateY(${currentY + floatDirection}px)`;
     heroContent.style.transition = "transform 0.5s ease";
 }, 50);
+
+
